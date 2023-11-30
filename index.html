@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        class Person {
+            constructor(name, age) {
+                this.name = name
+                this.age = age
+            }
+
+            getName() {
+                return this.name + " " + this.age
+            }
+        }
+
+        let person1 = new Person("Mike", 23)
+        let person2 = new Person("Timi", 20)
+        console.log(person2.getName())
+        console.log(person1.getName())
+       
+    </script>
+    
+</body>
+</html>
